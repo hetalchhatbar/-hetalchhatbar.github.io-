@@ -27,7 +27,6 @@ D:\POC\RecruitmentPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dl
 D:\POC\RecruitmentPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\POC\RecruitmentPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\POC\RecruitmentPortal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\POC\RecruitmentPortal\obj\Debug\netcoreapp3.1\RecruitmentPortal.csproj.AssemblyReference.cache
 D:\POC\RecruitmentPortal\obj\Debug\netcoreapp3.1\RecruitmentPortal.GeneratedMSBuildEditorConfig.editorconfig
 D:\POC\RecruitmentPortal\obj\Debug\netcoreapp3.1\RecruitmentPortal.AssemblyInfoInputs.cache
 D:\POC\RecruitmentPortal\obj\Debug\netcoreapp3.1\RecruitmentPortal.AssemblyInfo.cs
