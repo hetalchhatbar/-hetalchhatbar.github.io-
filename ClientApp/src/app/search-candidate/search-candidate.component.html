@@ -1,0 +1,40 @@
+﻿<h1>Israeli Mosad</h1>
+<p>Welcome to your search Candidate Portal</p>
+<div class="row">
+    <div class="col-sm-4">
+        <label>Technology</label>
+    </div>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" list="Techs" [(ngModel)]="techName" (change)="BindCandidate($event)">
+    </div>
+    <div class="col-sm-4">
+        <datalist id="Techs">
+            <option class="form-control" *ngFor="let c of TechnologiesList" [value]="c.name">{{c.name}}</option>
+        </datalist>
+    </div>
+    <div class="col-sm-4">
+        <label>Experience</label>
+    </div>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" [(ngModel)]="exp" (change)="BindCandidate($event)">
+    </div>
+</div>
+<div class="col-sm-12 ">
+    <div *ngFor="let candidate of CandidateList2; ">
+        <div class="col-sm-6 list-group">
+            <div style="display:none"> {{candidate.candidateId}}</div>
+            <h4 class="list-group-item">{{candidate.fullName}}</h4>
+            <div class="list-group-item"> <img src="{{candidate.profilePicture}}" />"</div>
+            <div class="list-group-item"> {{candidate.email}}</div>
+            <div class="list-group-item"> {{candidate.barcode}} </div>
+            <!--<div *ngFor="let exp of candidate.experience; ">
+        <div class="list-group-item">{{exp.technologyId}}</div>
+        <div class="list-group-item">{{exp.yearsOfExperience}}</div>
+    </div>-->
+            <div>
+                <button type="button" (click)="delete(candidate.candidateId);">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
